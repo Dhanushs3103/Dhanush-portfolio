@@ -264,8 +264,8 @@ h2 {
     #pros {
         width: 95%;
         gap: 25px;
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(1,480px);
         margin: auto;
     }
     
@@ -383,8 +383,8 @@ h2 {
     #pros {
         width: 95%;
         gap: 25px;
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(1,480px);
         margin: auto;
     }
 
@@ -552,8 +552,8 @@ h2 {
 #pros {
     width: 95%;
     gap: 25px;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1,500px);
     margin: auto;
 }
 
@@ -738,7 +738,7 @@ h2 {
         margin: auto;
         gap: 15px;
         padding: 20px;
-        margin-left: 2.5px;
+        margin-left: 20px;
     }
     
     #part-2 {
@@ -748,7 +748,7 @@ h2 {
         margin: auto;
         gap: 15px;
         padding: 20px;
-        margin-left: 2.5px;
+        margin-left: 20px;
     }
 
     .checkmark {
@@ -779,8 +779,8 @@ h2 {
     #pros {
         width: 100%;
         gap: 25px;
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(1,460px);
         margin: auto;
     }
 
@@ -804,16 +804,36 @@ h2 {
         margin-left: 15px;
     }
 
+    #pro-3 {
+        height: 650px;
+        width: 390px;
+        padding: 20px;
+        border: 2px solid gray;
+        border-radius: 30px;
+        background-color: white;
+        margin-left: 15px;
+    }
+
+    #pro-4 {
+        height: 650px;
+        width: 390px;
+        padding: 20px;
+        border: 2px solid gray;
+        border-radius: 30px;
+        background-color: white;
+        margin-left: 15px;
+    }
+
 
 
     .para-a {
-        margin-left: 30px;
+        margin-left: 20px;
     }
     
     .para-a ~ p {
         font-size: 39px;
         margin-bottom: 20px;
-        margin-left: 30px;
+        margin-left: 20px;
     }
 
     .pro-title {
@@ -824,7 +844,7 @@ h2 {
         gap: 10px;
         padding: 10px;
         border-radius: 20px;
-        margin-left: 12px;
+        margin-left: 33px;
     }
 
     .foot-f  {
@@ -956,6 +976,7 @@ h2 {
     .para-a ~ p {
         font-size: 28px !important;
         margin-left: 80px !important;
+        margin-bottom: 20px;
     }
     
     #about-2 {
@@ -1062,29 +1083,49 @@ h2 {
     #pros {
         width: 100%;
         gap: 25px;
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(1,390px);
         margin: auto;
     }
 
     #pro-1 {
         height: 650px;
-        width: 390px !important;
-        padding: 20px;
+        width: 360px !important;
+        padding: 29px;
         border: 2px solid gray;
         border-radius: 30px;
         background-color: white;
-        margin-left: 65px !important;
+        margin-left: 15px !important;
     }
 
     #pro-2 {
         height: 650px;
-        width: 390px;
-        padding: 20px;
+        width: 360px;
+        padding: 29px;
         border: 2px solid gray;
         border-radius: 30px;
         background-color: white;
-        margin-left: 65px !important ;
+        margin-left: 15px !important ;
+    }
+
+    #pro-3 {
+        height: 700px;
+        width: 360px;
+        padding: 29px;
+        border: 2px solid gray;
+        border-radius: 30px;
+        background-color: white;
+        margin-left: 15px !important ;
+    }
+
+    #pro-4 {
+        height: 650px;
+        width: 360px;
+        padding: 29px;
+        border: 2px solid gray;
+        border-radius: 30px;
+        background-color: white;
+        margin-left: 15px !important ;
     }
 
        

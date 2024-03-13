@@ -37,3 +37,29 @@ document.getElementById("Download").addEventListener("click", function() {
         
     link2.click();       
   })
+
+  let live3 = document.getElementById("live-3");
+
+  live3.addEventListener("click",function() {
+    let link3 = document.createElement('a');
+    link3.href = "https://nord-storm-clone.vercel.app/";
+     
+    link3.target = "_blank";
+  
+    document.body.append(link3);
+        
+    link3.click();       
+  })
+
+  let live4 = document.getElementById("live-4");
+
+  live4.addEventListener("click",function() {
+    let link4 = document.createElement('a');
+    link4.href = "https://weather-app-ten-fawn-59.vercel.app/";
+     
+    link4.target = "_blank";
+  
+    document.body.append(link4);
+        
+    link4.click();       
+  })
